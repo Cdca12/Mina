@@ -20,13 +20,13 @@ public class ToneladaPlata extends JPanel {
         this.estaAsignada = false;
         setBorder(BorderFactory.createRaisedBevelBorder());
         switch (tipo) {
-            case 1: // Regular
+            case 1: // Tipo 1: Regular
                 setBackground(Color.RED);
                 break;
-            case 2: // Buena
+            case 2: // Tipo 2: Buena
                 setBackground(Color.ORANGE);
                 break;
-            case 3: // Excelente
+            case 3: // Tipo 3: Excelente
                 setBackground(Color.GREEN);
                 break;
         }

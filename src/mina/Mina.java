@@ -163,7 +163,15 @@ public class Mina extends JFrame implements ActionListener {
     }
     
     public void asignarToneladas() {
-        
+        // Crear Paises
+        Pais[] paisesEuropa = new Pais[numeroPaisesEuropa];
+        Pais[] paisesAsia = new Pais[numeroPaisesAsia];
+        for (int i = 0; i < numeroPaisesEuropa; paisesEuropa[i] = new Pais(toneladasPlata), i++);
+        for (int i = 0; i < numeroPaisesAsia; paisesAsia[i] = new Pais(toneladasPlata), i++);
+            
+        // Iniciar hilo Paises
+        for (int i = 0; i < numeroPaisesEuropa; paisesEuropa[i].start(), i++);
+        for (int i = 0; i < numeroPaisesAsia; paisesAsia[i].start(), i++);
     }
 
     @Override
