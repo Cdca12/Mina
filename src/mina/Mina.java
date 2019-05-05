@@ -166,8 +166,8 @@ public class Mina extends JFrame implements ActionListener {
         // Crear Paises
         Pais[] paisesEuropa = new Pais[numeroPaisesEuropa];
         Pais[] paisesAsia = new Pais[numeroPaisesAsia];
-        for (int i = 0; i < numeroPaisesEuropa; paisesEuropa[i] = new Pais(toneladasPlata), i++);
-        for (int i = 0; i < numeroPaisesAsia; paisesAsia[i] = new Pais(toneladasPlata), i++);
+        for (int i = 0; i < numeroPaisesEuropa; paisesEuropa[i] = new Pais(toneladasPlata,toneladasEuropa,'E'), i++);
+        for (int i = 0; i < numeroPaisesAsia; paisesAsia[i] = new Pais(toneladasPlata,toneladasAsia,'A'), i++);
             
         // Iniciar hilo Paises
         for (int i = 0; i < numeroPaisesEuropa; paisesEuropa[i].start(), i++);
